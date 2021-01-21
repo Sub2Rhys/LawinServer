@@ -138,14 +138,14 @@ namespace LawinServer.Net
                     oSession["x-replywithtunnel"] = "FortniteTunnel";
                     return;
                 }
-                oSession.fullUrl = "https://lawinserverfinal.herokuapp.com" + oSession.PathAndQuery;
+                oSession.fullUrl = "https://lawinservertest.herokuapp.com" + oSession.PathAndQuery;
 
             }
         }
 
         private void OnAfterSessionComplete(Session oSession)
         {
-            if (oSession.hostname != "lawinserverfinal.herokuapp.com")
+            if (oSession.hostname != "lawinservertest.herokuapp.com")
             {
                 return;
             }

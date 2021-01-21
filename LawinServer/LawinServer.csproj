@@ -14,10 +14,16 @@
     <Version>1.0.5</Version>
     <AssemblyVersion>1.0.5</AssemblyVersion>
     <FileVersion>1.0.5</FileVersion>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="4.1.0" />
     <PackageReference Include="FiddlerCore.Trial" Version="5.0.0" />
+    <PackageReference Include="Fody" Version="6.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="System.Security.Cryptography.Cng" Version="4.7.0" />
   </ItemGroup>
 
