@@ -1,4 +1,6 @@
-usage:
+I didn't make this, all credits go to Lawin and PsychoPast.
+
+Usage:
 Double click the exe (uses default port: 9999) *RECOMMENDED*
 
 Launch with arg: LawinServer.exe *port* (specifies the port to use. Keep in mind a port can be unavailable)
